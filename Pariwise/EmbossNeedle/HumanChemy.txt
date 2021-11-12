@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Fri 12 Nov 2021 20:11:02
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20211112-202251-0164-65971146-p1m.aupfile
+#    -bsequence emboss_needle-I20211112-202251-0164-65971146-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SOMA_HUMAN
+# 2: SOMA_CHEMY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:     114/218 (52.3%)
+# Similarity:   147/218 (67.4%)
+# Gaps:          28/218 (12.8%)
+# Score: 582.0
+# 
+#
+#=======================================
+
+SOMA_HUMAN         1 MATGSRTSLLLAFGLLCLPWLQEGSAFPTIPLSRLFDNAMLRAHRLHQLA     50
+                                              |||.:|||.||.||:|||..||.||
+SOMA_CHEMY         1 -------------------------AFPAMPLSSLFANAVLRAQHLHLLA     25
+
+SOMA_HUMAN        51 FDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLE    100
+                     .|||:|||..|||:||::| .:..|::.|:||:||.|:.:::.:|||::|
+SOMA_CHEMY        26 ADTYKEFERTYIPEEQRHS-NKISQSASCYSETIPAPTGKDDAEQKSDME     74
+
+SOMA_HUMAN       101 LLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTL    150
+                     |||.||:||||||.|||||..||.||||:|.|| .||:.|:|||||||.|
+SOMA_CHEMY        75 LLRFSLILIQSWLNPVQFLSRVFTNSLVFGTSD-RVYEKLRDLEEGIQAL    123
+
+SOMA_HUMAN       151 MGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVE    200
+                     |..|||||.|..|:.:.||.|||.|..|:||||||||||.||:||:.|||
+SOMA_CHEMY       124 MRELEDGSLRGFQVLRPTYDKFDINLRNEDALLKNYGLLSCFKKDLHKVE    173
+
+SOMA_HUMAN       201 TFLRIVQCRSV-EGSCGF    217
+                     |:|::::||.. |.:|..
+SOMA_CHEMY       174 TYLKLMKCRRFGESNCTI    191
+
+
+#---------------------------------------
+#---------------------------------------

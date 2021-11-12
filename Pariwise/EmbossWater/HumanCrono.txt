@@ -1,0 +1,55 @@
+########################################
+# Program: water
+# Rundate: Fri 12 Nov 2021 20:30:41
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20211112-203039-0540-69229448-p2m.aupfile
+#    -bsequence emboss_water-I20211112-203039-0540-69229448-p2m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SOMA_HUMAN
+# 2: SOMA_CRONO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:     113/190 (59.5%)
+# Similarity:   148/190 (77.9%)
+# Gaps:           3/190 ( 1.6%)
+# Score: 586.0
+# 
+#
+#=======================================
+
+SOMA_HUMAN        27 FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQT     76
+                     ||.:|||.||.||:|||..|:.||.:||:|||.:|||:||::| .:|.|:
+SOMA_CRONO         1 FPAMPLSNLFANAVLRAQHLYLLAAETYKEFERSYIPEEQRHS-NKNSQS     49
+
+SOMA_HUMAN        77 SLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANS    126
+                     :.|:||:||.|:.:::.||||::||||.||:|:||||.|||||..||.||
+SOMA_CRONO        50 AFCYSETIPAPTGKDDAQQKSDMELLRFSLVLVQSWLNPVQFLSRVFTNS     99
+
+SOMA_HUMAN       127 LVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNS    176
+                     ||:|.|| .|::.|:|||||||.||..|||||.|..||.|.||.|||.|.
+SOMA_CRONO       100 LVFGTSD-RVFEKLRDLEEGIQALMRELEDGSHRGPQILKPTYEKFDINL    148
+
+SOMA_HUMAN       177 HNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSV-EGSC    215
+                     .|:||||||||||.||:||:.||||:|::::||.. |.:|
+SOMA_CRONO       149 RNEDALLKNYGLLSCFKKDLHKVETYLKLMKCRRFGESNC    188
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,59 @@
+########################################
+# Program: water
+# Rundate: Fri 12 Nov 2021 20:27:33
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20211112-202732-0818-88720782-p2m.aupfile
+#    -bsequence emboss_water-I20211112-202732-0818-88720782-p2m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SOMA_HUMAN
+# 2: SOMA_SALSA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      74/208 (35.6%)
+# Similarity:   110/208 (52.9%)
+# Gaps:          17/208 ( 8.2%)
+# Score: 268.0
+# 
+#
+#=======================================
+
+SOMA_HUMAN        15 LLCLPWLQEGSAFPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPK     64
+                     ||...:|.:|:|...   .|||:.|:.|...||.:|...:.:||...:|.
+SOMA_SALSA        11 LLVSCFLSQGAAMEN---QRLFNIAVNRVQHLHLMAQKMFNDFEGTLLPD     57
+
+SOMA_HUMAN        65 EQKY---SFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQS    111
+                     |::.   .||    ...|.|:||.:|.::.|||:.|.|:||.||..||:|
+SOMA_SALSA        58 ERRQLNKIFL----LDFCNSDSIVSPIDKLETQKSSVLKLLHISFRLIES    103
+
+SOMA_HUMAN       112 WLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRT    161
+                     |..|.|.|  ..:|||:. .:.:.:.:.|.||:.||..|:...:||....
+SOMA_SALSA       104 WEYPSQTL--TISNSLMV-RNSNQISEKLSDLKVGINLLIKGSQDGVLSL    150
+
+SOMA_HUMAN       162 GQIFKQ---TYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQC    208
+                     .....|   .|..:..|...|..:.:||.||.||:|||.||||:|.:.:|
+SOMA_SALSA       151 DDNDSQQLPPYGNYYQNLGGDGNVRRNYELLACFKKDMHKVETYLTVAKC    200
+
+SOMA_HUMAN       209 R-SVEGSC    215
+                     | |:|.:|
+SOMA_SALSA       201 RKSLEANC    208
+
+
+#---------------------------------------
+#---------------------------------------
