@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Nov 2021 18:42:01
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20211130-184350-0017-97472391-p1m.aupfile
+#    -bsequence emboss_needle-I20211130-184350-0017-97472391-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LBH_HUMAN
+# 2: A0A7K8TEL8_9AVES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      84/110 (76.4%)
+# Similarity:    94/110 (85.5%)
+# Gaps:           8/110 ( 7.3%)
+# Score: 437.5
+# 
+#
+#=======================================
+
+LBH_HUMAN          1 -MSIYFPIHCPDYLRSAKMTEVMMNTQPMEEIGLSPRKDGLSYQIFPDPS     49
+                      :|.   :..|||||||:||||||||..|:||||||||||||||||||||
+A0A7K8TEL8_9A      1 MLSF---VSSPDYLRSAEMTEVMMNTPTMDEIGLSPRKDGLSYQIFPDPS     47
+
+LBH_HUMAN         50 DFDRCCKLKDRLPSIVVEPTEGEVESGELRWPPEEFLVQ----EDEQDNC     95
+                     ||||.|||||||||||||||||:||||||||||||||||    |:|::||
+A0A7K8TEL8_9A     48 DFDRYCKLKDRLPSIVVEPTEGDVESGELRWPPEEFLVQEEEEEEEEENC     97
+
+LBH_HUMAN         96 EETAKENKEQ    105
+                     |:..|:||||
+A0A7K8TEL8_9A     98 EDAKKDNKEQ    107
+
+
+#---------------------------------------
+#---------------------------------------

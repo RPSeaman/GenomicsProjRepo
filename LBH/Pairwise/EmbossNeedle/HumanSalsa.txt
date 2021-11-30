@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Nov 2021 18:47:30
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20211130-184728-0404-94065772-p2m.aupfile
+#    -bsequence emboss_needle-I20211130-184728-0404-94065772-p2m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LBH_HUMAN
+# 2: B5X4Z1_SALSA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      71/116 (61.2%)
+# Similarity:    83/116 (71.6%)
+# Gaps:          18/116 (15.5%)
+# Score: 371.0
+# 
+#
+#=======================================
+
+LBH_HUMAN          1 MSIYFP-IHCPDYLRSAKMTEVMMNTQPMEEIGLSPRKDGLSYQIFPDPS     49
+                     ||:|.| |:||.::.|..|||||:::.|||::.|||.||.||:|||||||
+B5X4Z1_SALSA       1 MSVYSPQIYCPVFVPSGDMTEVMISSTPMEDMRLSPSKDRLSFQIFPDPS     50
+
+LBH_HUMAN         50 DFDRCCKLKDRLPSIVVEPTEGEVESGELRWPPEEFLVQEDEQDNCEETA     99
+                     ||:|||||||||||||||||||||||||||||||||:|       |||..
+B5X4Z1_SALSA      51 DFERCCKLKDRLPSIVVEPTEGEVESGELRWPPEEFIV-------CEEEE     93
+
+LBH_HUMAN        100 KENKEQ----------    105
+                     ...|.|          
+B5X4Z1_SALSA      94 NHGKSQTGQPTHNNEH    109
+
+
+#---------------------------------------
+#---------------------------------------

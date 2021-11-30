@@ -1,0 +1,51 @@
+########################################
+# Program: water
+# Rundate: Tue 30 Nov 2021 18:50:47
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20211130-185046-0053-85611656-p1m.aupfile
+#    -bsequence emboss_water-I20211130-185046-0053-85611656-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LBH_HUMAN
+# 2: B5X4Z1_SALSA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      71/106 (67.0%)
+# Similarity:    83/106 (78.3%)
+# Gaps:           8/106 ( 7.5%)
+# Score: 371.0
+# 
+#
+#=======================================
+
+LBH_HUMAN          1 MSIYFP-IHCPDYLRSAKMTEVMMNTQPMEEIGLSPRKDGLSYQIFPDPS     49
+                     ||:|.| |:||.::.|..|||||:::.|||::.|||.||.||:|||||||
+B5X4Z1_SALSA       1 MSVYSPQIYCPVFVPSGDMTEVMISSTPMEDMRLSPSKDRLSFQIFPDPS     50
+
+LBH_HUMAN         50 DFDRCCKLKDRLPSIVVEPTEGEVESGELRWPPEEFLVQEDEQDNCEETA     99
+                     ||:|||||||||||||||||||||||||||||||||:|       |||..
+B5X4Z1_SALSA      51 DFERCCKLKDRLPSIVVEPTEGEVESGELRWPPEEFIV-------CEEEE     93
+
+LBH_HUMAN        100 KENKEQ    105
+                     ...|.|
+B5X4Z1_SALSA      94 NHGKSQ     99
+
+
+#---------------------------------------
+#---------------------------------------

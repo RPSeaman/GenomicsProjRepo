@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Nov 2021 18:40:23
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20211130-184021-0781-12419244-p2m.aupfile
+#    -bsequence emboss_needle-I20211130-184021-0781-12419244-p2m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LBH_HUMAN
+# 2: A0A5N4D6Q5_CAMDR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      62/106 (58.5%)
+# Similarity:    64/106 (60.4%)
+# Gaps:          40/106 (37.7%)
+# Score: 330.0
+# 
+#
+#=======================================
+
+LBH_HUMAN          1 MSIYFPIHCPDYLRSAKMTEVMMNTQPMEEIGLSPRKDGLSYQ-IFPDPS     49
+                                                            :|.: ||||||
+A0A5N4D6Q5_CA      1 ---------------------------------------MSLRAIFPDPS     11
+
+LBH_HUMAN         50 DFDRCCKLKDRLPSIVVEPTEGEVESGELRWPPEEFLVQEDEQDNCEETA     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A0A5N4D6Q5_CA     12 DFDRCCKLKDRLPSIVVEPTEGEVESGELRWPPEEFLVQEDEQDNCEETA     61
+
+LBH_HUMAN        100 KENKEQ    105
+                     .|||||
+A0A5N4D6Q5_CA     62 NENKEQ     67
+
+
+#---------------------------------------
+#---------------------------------------

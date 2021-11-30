@@ -1,0 +1,51 @@
+########################################
+# Program: water
+# Rundate: Tue 30 Nov 2021 18:50:36
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20211130-185032-0411-89558026-p2m.aupfile
+#    -bsequence emboss_water-I20211130-185032-0411-89558026-p2m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LBH_HUMAN
+# 2: A0A7K8TEL8_9AVES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      83/103 (80.6%)
+# Similarity:    92/103 (89.3%)
+# Gaps:           4/103 ( 3.9%)
+# Score: 442.5
+# 
+#
+#=======================================
+
+LBH_HUMAN          7 IHCPDYLRSAKMTEVMMNTQPMEEIGLSPRKDGLSYQIFPDPSDFDRCCK     56
+                     :..|||||||:||||||||..|:||||||||||||||||||||||||.||
+A0A7K8TEL8_9A      5 VSSPDYLRSAEMTEVMMNTPTMDEIGLSPRKDGLSYQIFPDPSDFDRYCK     54
+
+LBH_HUMAN         57 LKDRLPSIVVEPTEGEVESGELRWPPEEFLVQ----EDEQDNCEETAKEN    102
+                     |||||||||||||||:||||||||||||||||    |:|::|||:..|:|
+A0A7K8TEL8_9A     55 LKDRLPSIVVEPTEGDVESGELRWPPEEFLVQEEEEEEEEENCEDAKKDN    104
+
+LBH_HUMAN        103 KEQ    105
+                     |||
+A0A7K8TEL8_9A    105 KEQ    107
+
+
+#---------------------------------------
+#---------------------------------------
